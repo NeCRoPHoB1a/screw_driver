@@ -1,0 +1,24 @@
+#ifdef Dict_PS4_h
+#define Dict_PS4_h
+#include <Arduino.h>
+
+
+struct Dict_moves0
+{
+    //Speeds
+    byte Speed1 = 0b10000000;
+    byte Speed2 = 0b01000000;
+    byte Speed3 = 0b00100000;
+    //Directions
+    byte Forward =  0b00010000;
+    byte Back =  0b00001000;
+    byte Right =  0b00000100;
+    byte Back =  0b00000010;
+    //Buttons_indicator
+    byte flag = 0b00000001;
+    //Buttons
+    byte Automate = 0b10000000;
+};
+
+
+#endif
